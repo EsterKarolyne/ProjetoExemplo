@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Sketchzone;
+    src: url(./Sketchzone.otf)
+
+
+}
+
+*{
+    /*height: 100%;*/
+   
+}
+
+body{
+    background-image: linear-gradient(to right,#EDCCC2,#9C4C68 );
+    
+
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #ac46068e;
+    
+}
+
+h1{
+    color:#C7433A;
+    text-align: center;
+    text-shadow: 3px 3px 3px #cc6622;
+    font-family: Sketchzone;
+}
+
+h2{
+    color: #331D31 ;
+    font-family: Sketchzone;
+}
+
+
+p{
+    text-align: justify;
+}
+
+#primeiro{
+    background-color: pink;
+}
+
+.basico{
+    background-color: rgba(128, 0, 128, 0.432);
+
+}
+
+.intermediario{
+    background-color: rgba(128, 0, 128, 0.445);
+
+}
+
+div{
+    width:1320px;
+    border-radius: 20px;
+    color: #C7433A;
+    
+}
+
+
+div:hover{
+
+    background-color: rgba(238, 9, 96, 0.329);
+}
+
+header{
+    
+    background-color: #b9192e8a; 
+    width: 1400px;
+    height: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border-radius:5px
+}
+
+nav{
+    display:flex;
+    padding: 3px;
+}
+
+a{
+    font-size: 20px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+footer p{
+    font-size: 30px;
+    background-color:#b9192e8a;
+    text-align: center;
+}
